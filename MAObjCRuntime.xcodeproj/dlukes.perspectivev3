@@ -295,7 +295,7 @@
 							<real>185</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>758 170 1324 830 0 0 1680 1028 </string>
+						<string>356 170 1324 830 0 0 1680 1028 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -325,13 +325,13 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>53B75F2F128E0A6900430203</string>
+										<string>53B75F77128E0C4000430203</string>
 										<key>history</key>
 										<array>
 											<string>53B75E0F128E032F00430203</string>
 											<string>53B75E10128E032F00430203</string>
 											<string>53B75E11128E032F00430203</string>
-											<string>53B75F08128E08D700430203</string>
+											<string>53B75F2F128E0A6900430203</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -345,18 +345,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1117, 368}}</string>
+								<string>{{0, 0}, {1117, 357}}</string>
 								<key>RubberWindowFrame</key>
-								<string>758 170 1324 830 0 0 1680 1028 </string>
+								<string>356 170 1324 830 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>368pt</string>
+							<string>357pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>416pt</string>
+							<string>427pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -370,9 +370,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1117, 389}}</string>
+										<string>{{10, 27}, {1117, 400}}</string>
 										<key>RubberWindowFrame</key>
-										<string>758 170 1324 830 0 0 1680 1028 </string>
+										<string>356 170 1324 830 0 0 1680 1028 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -454,11 +454,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>53B75F28128E099800430203</string>
+				<string>53B75F78128E0C4000430203</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>53B75F29128E099800430203</string>
+				<string>53B75F79128E0C4000430203</string>
 				<string>53CF0DD0128E029F0019E41B</string>
-				<string>53B75F2A128E099800430203</string>
+				<string>53B75F7A128E0C4000430203</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -628,10 +628,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>/Users/dlukes/Desktop/MAObjCRuntime-Framework/MAObjCRuntime.xcodeproj</string>
+		<string>/Users/dlukes/Git Repositories/MAObjCRuntime-Framework/MAObjCRuntime.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>758 170 1324 830 0 0 1680 1028 </string>
+	<string>356 170 1324 830 0 0 1680 1028 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
