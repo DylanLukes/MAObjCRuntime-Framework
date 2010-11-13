@@ -264,7 +264,7 @@
 				GCC_PREFIX_HEADER = MAObjCRuntime_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Frameworks";
-				LD_DYLIB_INSTALL_NAME = "@loader_path/Frameworks/";
+				LD_DYLIB_INSTALL_NAME = "@loader_path/Frameworks/$(EXECUTABLE_PATH)";
 				PRODUCT_NAME = MAObjCRuntime;
 				WRAPPER_EXTENSION = framework;
 			};
@@ -283,7 +283,7 @@
 				GCC_PREFIX_HEADER = MAObjCRuntime_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Frameworks";
-				LD_DYLIB_INSTALL_NAME = "@loader_path/Frameworks/";
+				LD_DYLIB_INSTALL_NAME = "@loader_path/Frameworks/$(EXECUTABLE_PATH)";
 				PRODUCT_NAME = MAObjCRuntime;
 				WRAPPER_EXTENSION = framework;
 			};
