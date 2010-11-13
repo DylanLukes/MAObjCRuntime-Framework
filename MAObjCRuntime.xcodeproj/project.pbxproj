@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5378FD6B128EDA5400D874FD /* MARuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 5378FD67128EDA5400D874FD /* MARuntime.h */; };
+		5378FD6C128EDA5400D874FD /* MARuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 5378FD68128EDA5400D874FD /* MARuntime.m */; };
+		5378FD6D128EDA5400D874FD /* RTClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 5378FD69128EDA5400D874FD /* RTClass.h */; };
+		5378FD6E128EDA5400D874FD /* RTClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5378FD6A128EDA5400D874FD /* RTClass.m */; };
 		53B75DF5128E02D200430203 /* MARTNSObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B75DE9128E02D200430203 /* MARTNSObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53B75DF6128E02D200430203 /* MARTNSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B75DEA128E02D200430203 /* MARTNSObject.m */; };
 		53B75DF7128E02D200430203 /* RTIvar.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B75DEB128E02D200430203 /* RTIvar.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,6 +34,10 @@
 		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		32DBCF5E0370ADEE00C91783 /* MAObjCRuntime_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAObjCRuntime_Prefix.pch; sourceTree = "<group>"; };
+		5378FD67128EDA5400D874FD /* MARuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MARuntime.h; sourceTree = "<group>"; };
+		5378FD68128EDA5400D874FD /* MARuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MARuntime.m; sourceTree = "<group>"; };
+		5378FD69128EDA5400D874FD /* RTClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTClass.h; sourceTree = "<group>"; };
+		5378FD6A128EDA5400D874FD /* RTClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTClass.m; sourceTree = "<group>"; };
 		53B75DE9128E02D200430203 /* MARTNSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MARTNSObject.h; sourceTree = "<group>"; };
 		53B75DEA128E02D200430203 /* MARTNSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MARTNSObject.m; sourceTree = "<group>"; };
 		53B75DEB128E02D200430203 /* RTIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTIvar.h; sourceTree = "<group>"; };
@@ -42,7 +50,7 @@
 		53B75DF2128E02D200430203 /* RTProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTProtocol.m; sourceTree = "<group>"; };
 		53B75DF3128E02D200430203 /* RTUnregisteredClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTUnregisteredClass.h; sourceTree = "<group>"; };
 		53B75DF4128E02D200430203 /* RTUnregisteredClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTUnregisteredClass.m; sourceTree = "<group>"; };
-		53B75E06128E02F300430203 /* MAObjCRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MAObjCRuntime.h; path = Source/MAObjCRuntime.h; sourceTree = SOURCE_ROOT; };
+		53B75E06128E02F300430203 /* MAObjCRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MAObjCRuntime.h; path = Source/MAObjCRuntime.h; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* MAObjCRuntime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MAObjCRuntime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
@@ -71,6 +79,7 @@
 		0867D691FE84028FC02AAC07 /* MAObjCRuntime */ = {
 			isa = PBXGroup;
 			children = (
+				53B75E06128E02F300430203 /* MAObjCRuntime.h */,
 				53B75DE8128E02D200430203 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				089C1665FE841158C02AAC07 /* Resources */,
@@ -127,9 +136,12 @@
 		53B75DE8128E02D200430203 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				53B75E06128E02F300430203 /* MAObjCRuntime.h */,
 				53B75DE9128E02D200430203 /* MARTNSObject.h */,
 				53B75DEA128E02D200430203 /* MARTNSObject.m */,
+				5378FD67128EDA5400D874FD /* MARuntime.h */,
+				5378FD68128EDA5400D874FD /* MARuntime.m */,
+				5378FD69128EDA5400D874FD /* RTClass.h */,
+				5378FD6A128EDA5400D874FD /* RTClass.m */,
 				53B75DEB128E02D200430203 /* RTIvar.h */,
 				53B75DEC128E02D200430203 /* RTIvar.m */,
 				53B75DED128E02D200430203 /* RTMethod.h */,
@@ -159,6 +171,8 @@
 				53B75DFD128E02D200430203 /* RTProtocol.h in Headers */,
 				53B75DFF128E02D200430203 /* RTUnregisteredClass.h in Headers */,
 				53B75E07128E02F300430203 /* MAObjCRuntime.h in Headers */,
+				5378FD6B128EDA5400D874FD /* MARuntime.h in Headers */,
+				5378FD6D128EDA5400D874FD /* RTClass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +245,8 @@
 				53B75DFC128E02D200430203 /* RTProperty.m in Sources */,
 				53B75DFE128E02D200430203 /* RTProtocol.m in Sources */,
 				53B75E00128E02D200430203 /* RTUnregisteredClass.m in Sources */,
+				5378FD6C128EDA5400D874FD /* MARuntime.m in Sources */,
+				5378FD6E128EDA5400D874FD /* RTClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
