@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5378FD6B128EDA5400D874FD /* MARuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 5378FD67128EDA5400D874FD /* MARuntime.h */; };
+		5378FD6B128EDA5400D874FD /* MARuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 5378FD67128EDA5400D874FD /* MARuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5378FD6C128EDA5400D874FD /* MARuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 5378FD68128EDA5400D874FD /* MARuntime.m */; };
-		5378FD6D128EDA5400D874FD /* RTClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 5378FD69128EDA5400D874FD /* RTClass.h */; };
+		5378FD6D128EDA5400D874FD /* RTClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 5378FD69128EDA5400D874FD /* RTClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5378FD6E128EDA5400D874FD /* RTClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5378FD6A128EDA5400D874FD /* RTClass.m */; };
 		53B75DF5128E02D200430203 /* MARTNSObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B75DE9128E02D200430203 /* MARTNSObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53B75DF6128E02D200430203 /* MARTNSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B75DEA128E02D200430203 /* MARTNSObject.m */; };
