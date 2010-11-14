@@ -231,6 +231,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -267,15 +269,14 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>0867D691FE84028FC02AAC07</string>
-								<string>53B75DE8128E02D200430203</string>
 								<string>034768DFFF38A50411DB9C8B</string>
 								<string>1C37FBAC04509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>25</integer>
-									<integer>24</integer>
+									<integer>9</integer>
+									<integer>8</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -296,7 +297,7 @@
 							<real>185</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>356 170 1324 830 0 0 1680 1028 </string>
+						<string>356 165 1324 830 0 0 1680 1028 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -307,14 +308,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>53CF0DD0128E029F0019E41B</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MAObjCRuntime.h</string>
+								<string>RTMethod.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -322,17 +321,18 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>53CF0DD1128E029F0019E41B</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MAObjCRuntime.h</string>
+										<string>RTMethod.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>53492100128F352000911EA9</string>
+										<string>53315D8512905033008FD7A0</string>
 										<key>history</key>
 										<array>
 											<string>53B75E0F128E032F00430203</string>
 											<string>53B75E11128E032F00430203</string>
 											<string>53491FD2128EDAD300911EA9</string>
-											<string>53491FD8128F0B8A00911EA9</string>
+											<string>53DBD628128F7362001A280B</string>
+											<string>53315AEE128F7AFF008FD7A0</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -346,18 +346,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1117, 257}}</string>
+								<string>{{0, 0}, {1117, 167}}</string>
 								<key>RubberWindowFrame</key>
-								<string>356 170 1324 830 0 0 1680 1028 </string>
+								<string>356 165 1324 830 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>257pt</string>
+							<string>167pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>527pt</string>
+							<string>617pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -371,9 +371,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1117, 500}}</string>
+										<string>{{10, 27}, {1117, 590}}</string>
 										<key>RubberWindowFrame</key>
-										<string>356 170 1324 830 0 0 1680 1028 </string>
+										<string>356 165 1324 830 0 0 1680 1028 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -455,11 +455,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>534920F5128F34EA00911EA9</string>
+				<string>53315D8212905027008FD7A0</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>534920F6128F34EA00911EA9</string>
+				<string>53315D8312905027008FD7A0</string>
 				<string>53CF0DD0128E029F0019E41B</string>
-				<string>534920F7128F34EA00911EA9</string>
+				<string>53315D8412905027008FD7A0</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -632,7 +632,7 @@
 		<string>/Users/dlukes/Git Repositories/MAObjCRuntime-Framework/MAObjCRuntime.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>356 170 1324 830 0 0 1680 1028 </string>
+	<string>356 165 1324 830 0 0 1680 1028 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
